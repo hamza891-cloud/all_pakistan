@@ -1,0 +1,68 @@
+ul {
+list-style-type: lower-roman;
+background-color: black ;
+color: blue;
+}
+ul {
+width: 150px;}
+li {
+margin: 10px;}
+ul.illuminations {
+list-style-position: inside;
+color: yellow;
+background-color: pink;}
+ul.season {
+list-style-position: inside;
+background-color: aqua;
+color: red;}
+body {
+font-family: Arial, Verdana, sans-serif;
+color: #111111;}
+table {
+width: 600px;}
+th, td {
+padding: 7px 10px 10px 10px;}
+th {
+text-transform: uppercase;
+letter-spacing: 0.1em;
+font-size: 90%;
+border-bottom: 2px solid #111111;
+border-top: 1px solid rgb(0, 0, 0);
+text-align: left;}
+tr.even {
+background-color: #1d0404;}
+tr:hover {
+background-color: #008580;}
+.money {
+text-align: right;}
+h1 {
+position: absolute;
+top: 0px;
+left: 500px;
+width: 250px;}
+p {
+width: 450px;}
+.notification {
+  background-color: rgb(44, 23, 23);
+  color: rgb(214, 214, 214);
+  text-decoration: none;
+  padding: 15px 26px;
+  position: relative;
+  display: inline-block;
+  border-radius: 2px;
+  
+}
+
+.notification:hover {
+  background: rgb(51, 47, 47);
+}
+
+.notification .badge {
+  position: absolute;
+
+  padding: 5px 10px;
+  border-: 50%;
+  background: rgb(42, 38, 38);
+  color: white;
+  margin-right: 90% auto;
+}
